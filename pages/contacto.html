@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../assets/css/estilos.css">
+        <script src="https://kit.fontawesome.com/0f40c48f05.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="../assets/img/logo.png" type="image/x-icon">
+        <title>Contacto - Work Hard RRHH</title>
+    </head>
+    <body>
+        <header> 
+            <a href="#" class="enlace">
+            <img src="../assets/img/logo.png" alt="Logo" height="95" width="auto">
+            </a>
+        </header>
+        <main>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../pages/blog.html">Blog</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="../pages/sobremi.html">Sobre mi</a></li>
+                    <li><a href="../pages/contacto.html">Contacto</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="fondoContacto">
+                    <div class="encabezado7">
+                        <h1>CONTACTO</h1>
+                    </div>
+                    <div class="alineacion3">
+                        <p>¿Tenés alguna pregunta, comentario o simplemente querés compartir conmigo tu buena energía? ¡Súper, quiero saber de vos!</p>
+                    </div>
+                <br>
+                    <div id="formulario">
+                        <form action="enviar.php" method="post" enctype="text/plain" netlify>
+                        <br>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre">
+                        <br>
+                        <br>
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" name="apellido"><br>
+                        <br>
+                        <label for="correo">Correo:</label>
+                        <input type="email" name="correo"><br>
+                        <br>
+                        <label for="genero">Género:</label>
+                        <select name="talles" id="">
+                            <option value="F">Femenino</option>
+                            <option value="M">Masculino</option>
+                            <option value="O">Otro/a</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="mensaje">Mensaje:</label><br>
+                        <br>
+                        <textarea name="mensaje" id="" cols="85" rows="15" placeholder="Escribe aquí tu mensaje"></textarea>
+                        <br>
+                        <br>
+                        <input type="submit" value="Enviar">
+                        <input type="reset">
+                        <br>
+                        <br>
+                        <br>
+                        <!----checkbox---->
+                        <label for="Suscribirme al Newsletter">Suscribirme al Newsletter:</label>
+                        <input type="checkbox" name="Suscribirme al Newsletter">
+                        </form>
+                    </div>
+                <br>
+                <br>
+                <div class="encabezado7">
+                    <h2>CÓMO LLEGAR</h2>
+                </div>
+                <div class="imagenes1">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d434673.06814915594!2d-64.69150297422902!3d-31.664411144253652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a28f63cf2077%3A0xca71e10e4641086b!2sPaseo%20del%20Buen%20Pastor!5e0!3m2!1ses-419!2sar!4v1658212411331!5m2!1ses-419!2sar" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </main>
+            <footer class="pie-pagina">
+                <div class="grupo-1">
+                    <div class="box">
+                        <figure>
+                            <a href="#">
+                                <img src="../assets/img/logo.png" alt="">
+                            </a>
+                        </figure>
+                </div>
+            <div class="box">
+                <h2>Categorías</h2>
+                    <a href="#">
+                        <p>Blog</p>
+                        <p>Servicios</p>
+                        <p>Contacto</p>
+                        <p>Sobre mi</p>
+                    </a>
+            </div>
+            <div class="box">
+                <h2>Seguime</h2>
+                    <div class="red-social">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div>
+            </div>
+            <div class="grupo-2">
+                <small>&copy; 2022 <b>WH RRHH</b> - Todos los Derechos Reservados.</small>
+            </div>
+        </footer>
+        <a href="#" class="subir">
+            <i class="fa-solid fa-angle-up"></i>
+        </a>
+    </body>
+</html>

@@ -103,7 +103,7 @@ html{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    margin-top: 40px;
+    margin-top: -70px;
 }
 .fondo1 h1{
     color: rgb(248, 245, 245);
@@ -254,7 +254,7 @@ h1{
 /* seccion frase - index */
 
 .encabezado4{
-    font-size: 30px;
+    font-size: 38px;
     text-align: center;
     font-style: oblique;
 }
@@ -272,8 +272,8 @@ h1{
     padding: 70px 5px;
 }
 .item{
-    height: 320px;
-    width: auto;
+    height: 380px;
+    width: 290px;
     background-color: white;
     text-align: center;
     font-size: 18px;
@@ -285,10 +285,17 @@ h1{
 }
 .item p{
     width: 250px;
-    padding-left: 35px;
-    padding-right: 35px;
+    margin: 20px;
+    padding-top: 10px;
     color: black;
+    font-size: 15px;
+    text-align: center;
     }
+
+.contenedor1 h3{
+    font-size: 25px;
+    padding-top: 20px;
+}
 
 .contenedor1 i{
     color: rgb(226, 43, 180);
@@ -369,7 +376,7 @@ h1{
 }
 .pie-pagina .grupo-1 .box figure img{
     width: 150px;
-    margin-left: 60px;
+    margin-left: 100px;
 }
 .pie-pagina .grupo-1 .box h2{
     color: #fff;
@@ -443,14 +450,17 @@ h1{
     text-align: center;
 }
 .parrafo6{
-    text-align: left;
-    margin-left: 178px;
-    margin-right: 178px;
+    text-align: justify;
+    margin-left: 188px;
+    margin-right: 190px;
+    padding-top: 10px;
+    
 }
 .parrafo5 h2{
     text-align: left;
-    margin-left: 178px;
+    margin-left: 188px;
     margin-right: 178px;
+    padding-top: 25px;
 }
 
 @media (max-width: 852px){
@@ -666,16 +676,25 @@ h1{
 
 .fondoContacto{
     background-image: url(../img/fondocontacto2.jpg);
-    background-size: 1900px auto;
+    background-size: 2400px auto;
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 70px;
-    padding-block-end: 120px;
+    padding-top: 120px;
+    padding-block-end: 140px;
 }
 .encabezado7{
     text-align: center;
     font-size: 25px;
 }
+.encabezado7 h2 {
+    margin: 40px;
+}
+
+.encabezado7 h1 {
+    margin: 25px
+}
+
+
 #formulario{
     text-align: left;
     margin-left: 368px;
@@ -721,6 +740,14 @@ h1{
     background-size: cover;
     background-position: center;
     padding: 25px;
+    margin-top: -70px;
+}
+
+#seccion-sobremi p {
+    margin: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
 }
 
 

@@ -411,6 +411,16 @@ h1{
 .pie-pagina .grupo-2 small{
     font-size: 15px;
 }
+.box li{
+    list-style: none;
+}
+.box li a{
+    color: #fff;
+}
+.box li a:hover{
+    color: violet;
+}
+
 @media screen and (max-width:800px){
     .pie-pagina .grupo-1{
         width: 90%;
@@ -461,6 +471,26 @@ h1{
     margin-left: 188px;
     margin-right: 178px;
     padding-top: 25px;
+}
+.boton-blog{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    background: violet;
+    color: black;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px violet;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    margin-top: 22px;
 }
 
 @media (max-width: 852px){
@@ -674,50 +704,139 @@ h1{
 
 /* pagina contacto */
 
-.fondoContacto{
-    background-image: url(../img/fondocontacto2.jpg);
-    background-size: 2400px auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-top: 120px;
-    padding-block-end: 140px;
+#fondo-contacto{
+    height: 100%;
+    background-color: #ab4493;
+    padding-top: 20px;
+    padding-block-end: 90px;
 }
+.contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+}
+
+input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+}
+
+textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+
+label{
+    display: block; 
+    float: center;  
+}
+
+button{
+    height: 45px; 
+    margin-bottom: 20px; 
+    text-transform: uppercase;
+    background-color: #ab4493; 
+    border-color: #ab4493; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 120px;   
+    cursor: pointer;
+}
+
+button p{
+    color: #fff; 
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+span{
+    color: #ab4493; 
+}
+
+.aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+}
+
+h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: #ab4493;
+}
+
+h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+}
+
+p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+}
+
+::-webkit-input-placeholder {
+    color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+}
+
+.formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+}
+
+.formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+}
+
 .encabezado7{
     text-align: center;
     font-size: 25px;
-}
-.encabezado7 h2 {
-    margin: 40px;
-}
-
-.encabezado7 h1 {
-    margin: 25px
+    color: white;
+    margin: 35px;
 }
 
-
-#formulario{
-    text-align: left;
-    margin-left: 368px;
-    margin-right: 350px;
+.imagenes1 iframe{
+    border-radius: 5px; 
+    width: 470px;
 }
 
 @media (max-width: 852px){
 
-    .fondoContacto{
-    text-align: center;
-    }
-    .alineacion3{
-        display: flex;
-        margin-left: 70px;
-        margin-right: 10px;
-        font-size: 18px;
-    }
-    #formulario{
-        text-align: left;
-        margin-left: 100px;
-        margin-right: 10px;
-    }
+.imagenes1 iframe{
+    width: 90vw;
+    height: 50vw;
+    border-radius: 5px; 
 }
+}
+
 
 /* paginas sobre mi */ 
 

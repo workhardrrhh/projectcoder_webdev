@@ -7,6 +7,7 @@
 .container-fluid li a:hover{
     background: linear-gradient(90deg, #ed6ea0, #ec8c69);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -254,7 +255,7 @@ h1{
 
 /* galeria grid - index y servicios */
 
-.grid-gallery{
+/*.grid-gallery{
     display: grid;
     grid-auto-rows: 200px;
     gap: 1rem;
@@ -301,7 +302,7 @@ h1{
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+}*/
 
 /* footer */
 
@@ -380,12 +381,6 @@ h1{
         padding: 35px 0px;
     }
 }
-
-/*@media (max-width: 852px){
-    .footer li{
-    
-    }
-}*/
 
 /* boton subir */ 
 
@@ -485,6 +480,7 @@ h1{
     
     background: linear-gradient(90deg, #d770b2, #e4ad7a);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 100px;
     display: inline-flex;
@@ -547,7 +543,7 @@ h1{
 .lista{
     margin-left: 330px;
     margin-right: 350px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .comentario1{
@@ -563,6 +559,10 @@ h1{
     font-size: 0px;
     padding-top: 50px;
     margin-block-end: -20px;
+}
+
+.alineacion3 p{
+    font-size: 16px;
 }
 
 @media (max-width: 852px){

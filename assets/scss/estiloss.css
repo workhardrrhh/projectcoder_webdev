@@ -1,4 +1,5 @@
-/*menu*/
+/* colores */
+/* menu */
 .container-fluid li a {
   font-size: 18px;
 }
@@ -67,25 +68,25 @@ html {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 130px;
-  height: 40px;
+  width: 140px;
+  height: 50px;
   background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
   color: rgb(248, 245, 245);
-  font-size: 18px;
+  font-size: 20px;
   border: none;
   cursor: pointer;
   text-transform: uppercase;
   transition: 0.3s ease all;
-  border-radius: 10px;
+  border-radius: 30px;
   position: relative;
   overflow: hidden;
   text-decoration: none;
   margin-top: 30px;
 }
-.fondo1 a a:hover {
+.fondo1 aa:hover {
   outline-color: rgba(49, 138, 172, 0);
   outline-offset: 80px;
-  text-shadow: 1px 1px 6px #fff;
+  text-shadow: 1px 1px 6px rgb(248, 245, 245);
 }
 
 @media (max-width: 852px) {
@@ -110,7 +111,7 @@ h1 {
 #sobremi .parrafo3 {
   font-size: 20px;
   text-align: justify;
-  color: white;
+  color: rgb(248, 245, 245);
   background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
   padding: 30px;
   margin: 30px;
@@ -122,29 +123,28 @@ h1 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 160px;
-  height: 40px;
+  width: 180px;
+  height: 50px;
   background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
-  color: white;
-  font-size: 15px;
+  color: rgb(248, 245, 245);
+  font-size: 18px;
   border: none;
   cursor: pointer;
   text-transform: uppercase;
   transition: 0.3s ease all;
-  border-radius: 10px;
+  border-radius: 30px;
   position: relative;
   overflow: hidden;
   margin-left: 200px;
   margin-top: 5px;
 }
 #sobremi .boton2:hover {
-  outline-color: rgba(49, 138, 172, 0);
   outline-offset: 80px;
-  text-shadow: 1px 1px 6px #fff;
+  text-shadow: 1px 1px 6px rgb(248, 245, 245);
 }
 #sobremi .boton2 a {
   text-decoration: none;
-  color: white;
+  color: rgb(248, 245, 245);
 }
 
 @media (min-width: 720px) {
@@ -237,9 +237,9 @@ h1 {
   right: 20px;
   text-align: center;
   line-height: 40px;
-  color: white;
+  color: rgb(248, 245, 245);
   border-radius: 50%;
-  border: 2px solid white;
+  border: 2px solid rgb(248, 245, 245);
   font-size: 22px;
 }
 
@@ -306,14 +306,14 @@ h1 {
   padding: 25px;
 }
 #encabezado5 .parrafo {
-  color: white;
+  color: rgb(248, 245, 245);
   font-style: oblique;
   margin: 100px;
   margin-top: -35px;
   font-size: 20px;
 }
 #encabezado5 .titulo {
-  background: linear-gradient(90deg, #d770b2, #e4ad7a);
+  background: linear-gradient(90deg, #ed6ea0, #ec8c69);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -376,7 +376,7 @@ h1 {
   margin-right: 375px;
   font-size: 30px;
   font-weight: bold;
-  color: rgb(201, 40, 241);
+  color: #ed6ea0;
   -webkit-margin-after: 20px;
           margin-block-end: 20px;
 }
@@ -392,7 +392,7 @@ h1 {
   margin-left: 368px;
   margin-right: 350px;
   font-size: 25px;
-  color: rgb(201, 40, 241);
+  color: #ed6ea0;
   font-style: oblique;
 }
 
@@ -426,7 +426,7 @@ h1 {
   .subtitulos {
     font-size: 20px;
     font-weight: bold;
-    color: rgb(201, 40, 241);
+    color: #ed6ea0;
     width: 88vw;
     height: auto;
     margin-left: 20px;
@@ -458,7 +458,7 @@ h1 {
 .item1 {
   height: 250px;
   width: 320px;
-  background-color: white;
+  background-color: rgb(248, 245, 245);
   text-align: center;
   padding-top: 45px;
   padding-left: 5px;
@@ -492,12 +492,12 @@ h1 {
   border-radius: 10px;
   padding-top: 30px;
   padding-bottom: 20px;
-  background-color: #fbfbfb;
+  background-color: rgb(248, 245, 245);
   padding-left: 30px;
 }
 
 input {
-  background-color: #fbfbfb;
+  background-color: rgb(248, 245, 245);
   width: 408px;
   height: 40px;
   border-radius: 5px;
@@ -510,7 +510,7 @@ input {
 }
 
 textarea {
-  background-color: #fbfbfb;
+  background-color: rgb(248, 245, 245);
   width: 405px;
   height: 150px;
   border-radius: 5px;
@@ -533,14 +533,14 @@ button {
   margin-bottom: 20px;
   text-transform: uppercase;
   background-color: #ed6ea0;
-  border-color: #e4ad7a;
+  border-color: #ec8c69;
   border-style: solid;
   border-radius: 10px;
   width: 120px;
   cursor: pointer;
 }
 button p {
-  color: #fff;
+  color: rgb(248, 245, 245);
   font-size: 15px;
   margin-top: 8px;
 }
@@ -551,7 +551,7 @@ span {
 
 .aviso {
   font-size: 13px;
-  color: #0e0e0e;
+  color: black;
 }
 
 h1 {
@@ -564,12 +564,12 @@ h1 {
 h3 {
   font-size: 16px;
   padding-bottom: 30px;
-  color: #0e0e0e;
+  color: black;
 }
 
 p {
   font-size: 14px;
-  color: #0e0e0e;
+  color: black;
 }
 
 ::-webkit-input-placeholder {
@@ -593,7 +593,7 @@ p {
 .encabezado7 {
   text-align: center;
   font-size: 25px;
-  color: white;
+  color: rgb(248, 245, 245);
   margin: 35px;
 }
 
@@ -616,12 +616,13 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 25px;
+    padding: 95px;
     margin-top: 30px;
   }
   #seccion-sobremi h2 {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
+    font-family: cursive;
   }
   #sobremi .img-sobremi {
     background-image: url(../img/sobremi.webp);
@@ -646,10 +647,10 @@ p {
     width: 350px;
     margin-top: 50px;
   }
-  #sobremi .img-sobremi:hover {
+  #sobremi .img-sobremi-1:hover {
     transform: scale(1.1);
   }
-  #sobremi .img-sobremi-1:hover {
+  #sobremi .img-sobremi:hover {
     transform: scale(1.1);
   }
   .texto {
@@ -680,10 +681,10 @@ p {
     height: 450px;
     margin-top: 50px;
   }
-  #sobremi .img-sobremi .img-sobremi:hover {
+  #sobremi .img-sobremi .img-sobremi-1:hover {
     transform: scale(1.1);
   }
-  #sobremi .img-sobremi .img-sobremi-1:hover {
+  #sobremi .img-sobremi.img-sobremi:hover {
     transform: scale(1.1);
   }
   #seccion-sobremi h2 {
@@ -736,7 +737,7 @@ p {
   text-align: center;
   transition: all 300ms ease;
 }
-.pie-pagina .red-social a:hover {
+.pie-pagina.red-social a:hover {
   color: #ed6ea0;
 }
 .pie-pagina .grupo-2 {

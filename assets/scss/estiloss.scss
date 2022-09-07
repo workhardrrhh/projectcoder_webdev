@@ -1,14 +1,28 @@
 
+/* colores */
+
 $textos: rgb(248, 245, 245);
+$color1: #ed6ea0;
+$color2: #ec8c69;
+$color3: rgba(0, 0, 0, 0.726);
+$color4: rgb(15, 15, 15);
+$color5: rgba(49, 138, 172, 0);
+$color6: black;
+$color7: rgba(0, 0, 0, 0.664);
+$color8: #a8a8a8;
+$color9: #97d848;
+$color10: #0a141d;
+$color11: #0d2033;
+$color12: #0a1a2a;
 
 
-/*menu*/
+/* menu */
 
 .container-fluid li a{
     font-size: 18px;
 }
     a:hover{
-    background: linear-gradient(90deg, #ed6ea0, #ec8c69);
+    background: linear-gradient(90deg, $color1, $color2);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -33,8 +47,8 @@ html{
     text-align: center;
     background-image: linear-gradient(
         0deg,
-        rgba(0, 0, 0, 0.726),
-        rgba(0,0,0,0.726)
+        $color3,
+        $color3
         ),url(../img/portada.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -83,25 +97,25 @@ html{
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        width: 130px;
-        height: 40px;
-        background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+        width: 140px;
+        height: 50px;
+        background-image: linear-gradient(to right, $color1 0%, $color2 100%);
         color: $textos;
-        font-size: 18px;
+        font-size: 20px;
         border: none;
         cursor: pointer;
         text-transform: uppercase;
         transition: .3s ease all;
-        border-radius: 10px;
+        border-radius: 30px;
         position: relative;
         overflow: hidden;
         text-decoration: none;
         margin-top: 30px;
 
-        a:hover {
-            outline-color: rgba(49, 138, 172, 0);
+        &a:hover {
+            outline-color: $color5;
             outline-offset: 80px;
-            text-shadow: 1px 1px 6px #fff;
+            text-shadow: 1px 1px 6px $textos;
         }
 }
 
@@ -115,7 +129,7 @@ html{
 /* all pages */
 
 h1{
-    color: rgb(15, 15, 15);
+    color: $color4;
     text-align: center;
 }
 
@@ -133,8 +147,8 @@ h1{
     .parrafo3{
         font-size: 20px;
         text-align: justify;
-        color: white;
-        background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+        color: $textos;
+        background-image: linear-gradient(to right, $color1 0%, $color2 100%);
         padding: 30px;
         margin: 30px;
     }
@@ -147,30 +161,29 @@ h1{
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        width: 160px;
-        height: 40px;
-        background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
-        color: white;
-        font-size: 15px;
+        width: 180px;
+        height: 50px;
+        background-image: linear-gradient(to right, $color1 0%, $color2 100%);
+        color: $textos;
+        font-size: 18px;
         border: none;
         cursor: pointer;
         text-transform: uppercase;
         transition: .3s ease all;
-        border-radius: 10px;
+        border-radius: 30px;
         position: relative;
         overflow: hidden;
         margin-left: 200px;
         margin-top: 5px;
 
         &:hover{
-            outline-color: rgba(49, 138, 172, 0);
             outline-offset: 80px;
-            text-shadow: 1px 1px 6px #fff;
+            text-shadow: 1px 1px 6px $textos;
         }
 
-        a {
+        a{
             text-decoration: none;
-            color: white;
+            color: $textos;
         }
     }
 }
@@ -236,7 +249,7 @@ h1{
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
-    background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+    background-image: linear-gradient(to right, $color1 0%, $color2 100%);
     padding: 70px 5px;
 
     .item{
@@ -253,7 +266,7 @@ h1{
         width: 250px;
         margin: 20px;
         margin-top: -12px;
-        color: black;
+        color: $color6;
         font-size: 15px;
         text-align: center;
     }
@@ -264,7 +277,7 @@ h1{
     }
 
     i {
-        color: #ec8c69;
+        color: $color2;
     }
     }
 }
@@ -274,15 +287,15 @@ h1{
 .subir{
     height: 40px;
     width: 40px;
-    background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+    background-image: linear-gradient(to right, $color1 0%, $color2 100%);
     position: fixed;
     bottom: 20px;
     right: 20px;
     text-align: center;
     line-height: 40px;
-    color: white;
+    color: $textos;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 2px solid $textos;
     font-size: 22px;
 }
 
@@ -293,7 +306,7 @@ h1{
     text-align: center;
 
     h1{
-        color: rgba(0, 0, 0, 0.664);
+        color: $color7;
     }
 
     h2{
@@ -351,8 +364,8 @@ h1{
     height: 90vh;
     background-image: linear-gradient(
         0deg,
-        rgba(0, 0, 0, 0.664),
-        rgba(0, 0, 0, 0.664)
+        $color7,
+        $color7
         ),url(../img/fondoservicios.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -363,7 +376,7 @@ h1{
     padding: 25px;
 
     .parrafo{
-        color: white;
+        color: $textos;
         font-style: oblique;
         margin: 100px;
         margin-top: -35px;
@@ -371,7 +384,7 @@ h1{
     }
 
     .titulo{
-        background: linear-gradient(90deg, #d770b2, #e4ad7a);
+        background: linear-gradient(90deg, $color1, $color2);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -435,7 +448,7 @@ p{
     margin-right: 375px;
     font-size: 30px;
     font-weight: bold;
-    color: rgb(201, 40, 241);
+    color: $color1;
     margin-block-end: 20px;
 }
 .lista{
@@ -449,7 +462,7 @@ p{
     margin-left: 368px;
     margin-right: 350px;
     font-size: 25px;
-    color: rgb(201, 40, 241);
+    color: $color1;
     font-style: oblique;
 }
 .alineacion4{
@@ -484,7 +497,7 @@ p{
     .subtitulos{
         font-size: 20px;
         font-weight: bold;
-        color: rgb(201, 40, 241);
+        color: $color1;
         width: 88vw;
         height: auto;
         margin-left: 20px;
@@ -523,14 +536,14 @@ p{
 .item1{
     height: 250px;
     width: 320px;
-    background-color: white;
+    background-color: $textos;
     text-align: center;
     padding-top: 45px;
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 15px;
     font-size: 19px;
-    color: black;
+    color: $color6;
     margin: 20px;
 
     p{
@@ -547,7 +560,7 @@ p{
 
 #fondo-contacto{
     height: 100%;
-    background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+    background-image: linear-gradient(to right, $color1 0%, $color2 100%);
     padding-top: 20px;
     padding-block-end: 90px;
 }
@@ -558,31 +571,31 @@ p{
     border-radius: 10px;  
     padding-top: 30px;
     padding-bottom: 20px;  
-    background-color: #fbfbfb; 
+    background-color: $textos; 
     padding-left: 30px; 
 }
 
 input{
-    background-color: #fbfbfb; 
+    background-color: $textos; 
     width: 408px; 
     height: 40px; 
     border-radius: 5px;  
     border-style: solid; 
     border-width: 1px; 
-    border-color: #ed6ea0; 
+    border-color: $color1; 
     margin-top: 10px;  
     padding-left: 10px;
     margin-bottom: 20px; 
 }
 
 textarea{
-    background-color: #fbfbfb; 
+    background-color: $textos; 
     width: 405px; 
     height: 150px; 
     border-radius: 5px;  
     border-style: solid; 
     border-width: 1px; 
-    border-color: #ed6ea0; 
+    border-color: $color1; 
     margin-top: 10px;  
     padding-left: 10px;
     margin-bottom: 20px; 
@@ -598,69 +611,69 @@ button{
     height: 45px; 
     margin-bottom: 20px; 
     text-transform: uppercase;
-    background-color: #ed6ea0; 
-    border-color: #e4ad7a; 
+    background-color: $color1; 
+    border-color: $color2; 
     border-style: solid; 
     border-radius: 10px;  
     width: 120px;   
     cursor: pointer;
 
     p{
-        color: #fff; 
+        color: $textos; 
         font-size: 15px;
         margin-top: 8px;
     }    
 }
 
 span{
-    color: #ed6ea0; 
+    color: $color1; 
 }
 
 .aviso{
     font-size: 13px;  
-    color: #0e0e0e;  
+    color: $color6;  
 }
 
 h1{
     font-size: 39px;  
     text-align: letf; 
     padding-bottom: 20px; 
-    color: #ed6ea0;
+    color: $color1;
 }
 
 h3{
     font-size: 16px; 
     padding-bottom: 30px;
-    color: #0e0e0e;   
+    color: $color6;   
 }
 
 p{
     font-size: 14px; 
-    color: #0e0e0e; 
+    color: $color6; 
 }
 
 ::-webkit-input-placeholder {
-    color: #a8a8a8;
+    color: $color8;
 }
 
 ::-webkit-textarea-placeholder {
-    color: #a8a8a8;
+    color: $color8;
 }
 
 .formulario input:focus{
     outline:0;
-    border: 1px solid #97d848;
+    border: 1px solid $color9;
 }
 
 .formulario textarea:focus{
     outline:0;
-    border: 1px solid #97d848;
+    border: 1px solid $color9;
 }
 
 .encabezado7{
     text-align: center;
     font-size: 25px;
-    color: white;
+    color: $textos;
     margin: 35px;
 }
 
@@ -688,12 +701,13 @@ p{
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        padding: 25px;
+        padding: 95px;
         margin-top: 30px;
 
         h2{
-            font-size: 40px;
+            font-size: 50px;
             text-align: center;
+            font-family: cursive;
         }
     }
 
@@ -720,14 +734,16 @@ p{
             height: 450px;
             width: 350px;
             margin-top: 50px;
-        }
+        
+                &:hover{
+                    transform:scale(1.1)
+                }
+            }
         .img-sobremi:hover{
             transform:scale(1.1)
-        }
-        .img-sobremi-1:hover{
-            transform:scale(1.1)
-        }
     }
+    }
+    
     .texto{
         width: 50%;
         max-width: 600px;
@@ -757,11 +773,13 @@ p{
                 background-position: center;
                 height: 450px;
                 margin-top: 50px;
-            }
-            .img-sobremi:hover{
-                transform:scale(1.1)
-            }
-            .img-sobremi-1:hover{
+                
+                    &:hover{
+                        transform:scale(1.1)
+                    }
+                }
+            
+            &.img-sobremi:hover{
                 transform:scale(1.1)
             }
     }
@@ -778,7 +796,7 @@ p{
 
 .pie-pagina{
     width: 100%;
-    background-color: #0a141d;
+    background-color: $color10;
 
     .grupo-1{
         width: 100%;
@@ -820,16 +838,16 @@ p{
         line-height: 45px;
         color: $textos;
         margin-right: 10px;
-        background-color: #0d2033;
+        background-color: $color11;
         text-align: center;
         transition: all 300ms ease;
     }
-    .red-social a:hover{
-            color: #ed6ea0;
+    &.red-social a:hover{
+            color: $color1;
         }
     
     .grupo-2{
-        background-color: #0a1a2a;
+        background-color: $color12;
         padding: 15px 10px;
         text-align: center;
         color: $textos;
@@ -845,7 +863,7 @@ p{
             color: $textos;
         }
         &a:hover{
-            color: #ed6ea0;
+            color: $color1;
         }
     }    
 }

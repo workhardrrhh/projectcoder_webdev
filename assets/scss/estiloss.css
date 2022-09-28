@@ -635,6 +635,13 @@ p {
     width: 90vw;
     height: auto;
   }
+  input {
+    width: 80vw;
+    height: 40px;
+  }
+  textarea {
+    width: 80vw;
+  }
 }
 /* paginas sobre mi */
 @media (min-width: 720px) {

@@ -631,12 +631,9 @@ p {
     height: 50vw;
     border-radius: 5px;
   }
-}
-@media (min-width: 720px) {
-  .imagenes1 iframe {
+  .contact_form {
     width: 90vw;
-    height: 50vw;
-    border-radius: 5px;
+    height: auto;
   }
 }
 /* paginas sobre mi */

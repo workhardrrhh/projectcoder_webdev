@@ -29,7 +29,7 @@ html {
   background-position: center center;
   height: 90vh;
   font-size: 20px;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.726)), url(../img/portada.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.726)), url(../img/portada\ tiny.jpg);
   margin-top: -70px;
 }
 .fondo1 h1 {
@@ -626,6 +626,13 @@ p {
 }
 
 @media (max-width: 852px) {
+  .imagenes1 iframe {
+    width: 90vw;
+    height: 50vw;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 720px) {
   .imagenes1 iframe {
     width: 90vw;
     height: 50vw;

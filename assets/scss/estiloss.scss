@@ -59,7 +59,7 @@ html{
         0deg,
         $color3,
         $color3
-        ),url(../img/portada.jpg);
+        ),url(../img/portada\ tiny.jpg);
     margin-top: -70px;
 
     h1 {
@@ -690,6 +690,14 @@ p{
     height: 50vw;
     border-radius: 5px; 
 }
+}
+
+@media (min-width: 720px){
+    .imagenes1 iframe{
+        width: 90vw;
+        height: 50vw;
+        border-radius: 5px;
+    }
 }
 
 

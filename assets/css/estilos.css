@@ -556,9 +556,9 @@ h1{
 }
 .alineacion4{
     text-align: center;
-    font-size: 0px;
+    font-size: 25px;
     padding-top: 50px;
-    margin-block-end: -20px;
+    padding: 30px;
 }
 
 .alineacion3 p{
@@ -586,6 +586,8 @@ h1{
         margin-left: -355px;
         margin-right: px;
     }
+
+
 
     .subtitulos{
         font-size: 20px;

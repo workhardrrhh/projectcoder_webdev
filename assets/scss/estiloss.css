@@ -58,7 +58,7 @@ html {
     margin: 22px;
   }
   .parrafo1 {
-    margin: 25px;
+    font-size: 20px;
   }
   .fondo1 {
     height: 100vh;
@@ -79,7 +79,8 @@ html {
   background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
   color: rgb(248, 245, 245);
   font-size: 20px;
-  border: none;
+  border: solid;
+  border-color: #ed6ea0;
   cursor: pointer;
   text-transform: uppercase;
   transition: 0.3s ease all;
@@ -112,8 +113,7 @@ h1 {
   font-family: cursive;
   text-align: center;
   font-style: oblique;
-  padding-top: 10px;
-  margin: 0px;
+  padding-top: 0px;
 }
 #sobremi .parrafo3 {
   font-size: 20px;
@@ -140,22 +140,25 @@ h1 {
   background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
   color: rgb(248, 245, 245);
   font-size: 18px;
-  border: none;
+  border: solid;
+  border-color: #ed6ea0;
   cursor: pointer;
   text-transform: uppercase;
   transition: 0.3s ease all;
   border-radius: 30px;
   position: relative;
   overflow: hidden;
-  margin-left: 185px;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-left: 13vw;
   margin-top: 5px;
 }
-#sobremi .boton2:hover {
+#sobremi .boton2a:hover {
+  outline-color: rgba(49, 138, 172, 0);
   outline-offset: 80px;
   text-shadow: 1px 1px 6px rgb(248, 245, 245);
 }
 #sobremi .boton2 a, #sobremi .boton2 .pie-pagina .box lia:hover, .pie-pagina .box #sobremi .boton2 lia:hover {
-  text-decoration: none;
   color: rgb(248, 245, 245);
 }
 
@@ -191,8 +194,12 @@ h1 {
     height: 450px;
     margin-top: 50px;
   }
-  #sobremi .img-parrafo2 .boton2 {
-    margin-right: 150px;
+  .boton2 {
+    margin-left: 50px;
+    margin-right: auto;
+  }
+  #sobremi .encabezado2 {
+    padding-top: 50px;
   }
 }
 /* seccion frase - index */
@@ -203,6 +210,11 @@ h1 {
   font-family: cursive;
 }
 
+@media (max-width: 852px) {
+  .encabezado4 {
+    font-size: 28px;
+  }
+}
 /* tablas - index  y servicios*/
 .contenedor1 {
   display: flex;
@@ -723,6 +735,7 @@ p {
   }
   #seccion-sobremi h2 {
     text-align: center;
+    padding-top: 50px;
   }
 }
 /* footer */

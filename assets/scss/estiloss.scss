@@ -91,7 +91,7 @@ html{
         margin: 22px;
     }
     .parrafo1{
-        margin: 25px;
+        font-size: 20px;
     }
     .fondo1{
         height: 100vh;
@@ -108,7 +108,8 @@ html{
         background-image: linear-gradient(to right, $color1 0%, $color2 100%);
         color: $textos;
         font-size: 20px;
-        border: none;
+        border: solid;
+        border-color: $color1;
         cursor: pointer;
         text-transform: uppercase;
         transition: .3s ease all;
@@ -148,9 +149,9 @@ h1{
         font-family: cursive;
         text-align: center;
         font-style: oblique;
-        padding-top: 10px;
-        margin: 0px;
+        padding-top: 0px;
     }
+
     .parrafo3{
         font-size: 20px;
         text-align: justify;
@@ -173,23 +174,26 @@ h1{
         background-image: linear-gradient(to right, $color1 0%, $color2 100%);
         color: $textos;
         font-size: 18px;
-        border: none;
+        border: solid;
+        border-color: $color1;
         cursor: pointer;
         text-transform: uppercase;
         transition: .3s ease all;
         border-radius: 30px;
         position: relative;
         overflow: hidden;
-        margin-left: 185px;
+        text-decoration: none;
+        margin-top: 30px;
+        margin-left: 13vw;
         margin-top: 5px;
 
-        &:hover{
+        &a:hover {
+            outline-color: $color5;
             outline-offset: 80px;
             text-shadow: 1px 1px 6px $textos;
         }
 
         a{
-            text-decoration: none;
             color: $textos;
         }
     }
@@ -231,12 +235,20 @@ h1{
             background-position: center;
             height: 450px;
             margin-top: 50px;
+        }
 
         .boton2{
-            margin-right: 150px;
+            margin-left: 50px;
+            margin-right: auto;
+        }
+    
+        #sobremi {
+            .encabezado2{
+            padding-top: 50px;
         }
     }
 }
+
 
 /* seccion frase - index */
 
@@ -245,6 +257,12 @@ h1{
     text-align: center;
     font-style: oblique;
     font-family: cursive;
+}
+
+@media (max-width: 852px){
+    .encabezado4{
+        font-size: 28px;
+    }
 }
 
 
@@ -802,6 +820,7 @@ textarea{
     #seccion-sobremi{
         h2{
             text-align: center;
+            padding-top: 50px;
         }
     }
 }

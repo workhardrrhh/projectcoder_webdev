@@ -72,8 +72,8 @@ html{
         text-align: center;
         font-style: oblique;
         margin-top: 30px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 400px;
+        margin-right: 400px;
     }
 
     h2 {
@@ -92,6 +92,10 @@ html{
     }
     .parrafo1{
         font-size: 20px;
+        text-align: justify;
+        margin: 0px;
+        width: 90vw;
+        height: auto;
     }
     .fondo1{
         height: 100vh;
@@ -175,10 +179,10 @@ h1{
         color: $textos;
         font-size: 18px;
         border: solid;
-        border-color: $color1;
+        border-color: $color2;
         cursor: pointer;
         text-transform: uppercase;
-        transition: .3s ease all;
+        transition: 0.3s ease all;
         border-radius: 30px;
         position: relative;
         overflow: hidden;
@@ -194,7 +198,7 @@ h1{
         }
 
         a{
-            color: $textos;
+            color: $textos
         }
     }
 }
@@ -237,8 +241,8 @@ h1{
             margin-top: 50px;
         }
 
-        .boton2{
-            margin-left: 50px;
+        .boton-sobremi{
+            margin-left: 90px;
             margin-right: auto;
         }
     
@@ -821,6 +825,7 @@ textarea{
         h2{
             text-align: center;
             padding-top: 50px;
+            color: $color1;
         }
     }
 }

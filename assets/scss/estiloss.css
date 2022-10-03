@@ -12,6 +12,11 @@ a:hover, .pie-pagina .box lia:hover {
   -webkit-text-fill-color: transparent;
 }
 
+@media (max-width: 852px) {
+  .container-fluid {
+    text-align: center;
+  }
+}
 /* all pages */
 html {
   scroll-behavior: smooth;
@@ -34,6 +39,7 @@ html {
 }
 .fondo1 h1 {
   color: rgb(248, 245, 245);
+  font-size: 35px;
 }
 .fondo1 p {
   color: rgb(248, 245, 245);
@@ -49,13 +55,16 @@ html {
   text-align: center;
   padding-top: 25px;
   padding: 35px;
-  margin: 10px;
+  margin-left: 450px;
+  margin-right: 450px;
 }
 
 @media (max-width: 852px) {
   .encabezado1 {
     padding: 10px;
-    margin: 22px;
+    margin: 0px;
+    width: 90vw;
+    height: auto;
   }
   .parrafo1 {
     font-size: 20px;
@@ -187,6 +196,12 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+}
+@media (max-width: 320px) {
+  .boton-sobremi {
+    margin-left: 30px;
+    margin-right: auto;
   }
 }
 @media (max-width: 852px) {
